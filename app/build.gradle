@@ -36,9 +36,7 @@ repositories {
     mavenCentral()
     google()
     jcenter()
-    maven {
-        url 'https://icomdevelopers.pkgs.visualstudio.com/_packaging/Android/maven/v1'
-    }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -50,6 +48,9 @@ dependencies {
 
     //Lottie
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    //Menu
+    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.2'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

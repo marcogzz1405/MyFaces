@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyFaces</string>
+
+    <!-- Menu -->
+    <string name="menu_dashboard">Menú</string>
+    <string name="menu_camera">Camara</string>
+    <string name="menu_profile">Perfil</string>
+
 </resources>
